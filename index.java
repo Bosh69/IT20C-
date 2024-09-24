@@ -1,10 +1,14 @@
-package simplearray;
+package displayforloop;
 
-public class SimpleArray {
+public class Displayforloop {
     public static void main(String[] args) {
         
-        //Simple Implementation
-        int[] numbers = {10, 20, 30, 40, 50};
-        System.out.println("First element in array: " + numbers[0]);
+        String[] fruits = {"Apple", "Banana", "Orange", "Grapes"};
+
+        // Display array elements using for loop
+        System.out.println("Fruits in the array:");
+        for (int i = 0; i < fruits.length; i++) {
+            System.out.println(fruits[i]);
+        }
     }
 }
